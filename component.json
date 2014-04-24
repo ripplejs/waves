@@ -1,0 +1,12 @@
+{
+  "name": "waves",
+  "dependencies": {
+    "ripplejs/ripple": "~0.3.5",
+    "ripplejs/each": "~0.2.0",
+    "ripplejs/events": "~0.1.2",
+    "ripplejs/bind-methods": "~0.1.0",
+    "ripplejs/extend": "~0.1.0",
+    "ripplejs/computed": "~0.1.0",
+    "ripplejs/refs": "~0.1.1"
+  }
+}
