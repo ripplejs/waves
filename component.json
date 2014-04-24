@@ -1,5 +1,8 @@
 {
   "name": "waves",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": ["src/index.js"],
   "dependencies": {
     "ripplejs/ripple": "~0.3.5",
     "ripplejs/each": "~0.2.0",
