@@ -2,7 +2,7 @@
 
 A view library built on top of Ripple. Waves is to Ripple as Myth is to Rework. Makes it easier to get started with Ripple if you're not using a package manager.
 
-If you're using Component or Browserify, you're better of using [ripple](https://github.com/ripplejs/ripple) directly.
+If you're using Component or Browserify, you're better off using [ripple](https://github.com/ripplejs/ripple) directly.
 
 It's just ripple but with a few plugins (listed below) included for you, to get you started:
 
