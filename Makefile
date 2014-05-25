@@ -6,7 +6,7 @@ components: component.json
 clean:
 	rm -fr build components dist
 
-build: components
+build: component
 	component build --standalone waves --name waves
 	-rm -r dist
 	mkdir dist
@@ -18,5 +18,6 @@ release: build
 	VERSION=`node -p "require('./component.json').version"` && \
 	git changelog --tag $$VERSION && \
 	git release $$VERSION
+	npm publish
 
 .PHONY: clean release standalone
