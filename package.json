@@ -1,0 +1,24 @@
+{
+  "name": "waves",
+  "version": "0.1.0",
+  "description": "ripple.js build for browserify",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ripplejs/waves.git"
+  },
+  "keywords": [
+    "mvvm",
+    "ripplejs",
+    "ripple",
+    "view"
+  ],
+  "author": "Anthony Short",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ripplejs/waves/issues"
+  }
+}
