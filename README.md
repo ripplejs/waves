@@ -2,9 +2,9 @@
 
 A view library built on top of Ripple. Waves is to Ripple as Myth is to Rework. Makes it easier to get started with Ripple if you're not using a package manager.
 
-If you're using Component or Browserify, you're better of using [ripple](https://github.com/ripplejs/ripple) directly.
+If you're using Component or Browserify, you're better off using [ripple](https://github.com/ripplejs/ripple) directly.
 
-It's just ripple but with a few plugins included:
+It's just ripple but with a few plugins (listed below) included for you, to get you started:
 
 * [events](https://github.com/ripplejs/events)
 * [each](https://github.com/ripplejs/each)
@@ -23,12 +23,29 @@ This adds a `waves` variable to the window.
 ## Usage
 
 ```html
-<script type="text/template" id="person">
+<body>
+  <!-- example view -->
+  <script type="text/template" id="person">
     <div>{{name}}</div>
-</script>
+  </script>
+
+  <!-- pull in waves -->
+  <script src="path/to/waves.js" type="text/javascript"></script>
+
+  <!-- bind your view with data -->
+  <script>
+    var Person = waves('#person');
+    var person = new Person({
+      data: {
+        name: 'Gus'
+      }
+    })
+    person.appendTo(document.body);
+  </script>
+</body>
 ```
 
-Then reference it using a CSS selector: 
+You can reference waves using a CSS selector: 
 
 ```js
 var Person = waves('#person');
