@@ -1,10 +1,12 @@
+default: build
+
 components: component.json
 	component install
 
 clean:
 	rm -fr build components dist
 
-build:
+build: components
 	component build --standalone waves --name waves
 	-rm -r dist
 	mkdir dist
